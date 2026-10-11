@@ -1,7 +1,7 @@
 # 00 — MANIFEST & AUTHORITY
 
 **TITLE:** TALA PROTOCOL — *Firebreak: Metro Cebu*
-**BUILD:** TP-FC1.4.0-20261011 (Foundation Candidate 1.4.0)
+**BUILD:** TP-FC1.4.1-20261011 (Foundation Candidate 1.4.1)
 **SAVE SCHEMA:** TP-SAVE-1.1
 **TIER:** CORE (always loaded) | **DEPENDS:** none
 
@@ -86,6 +86,7 @@ The Full Export of every file creates context pressure in long campaigns. Use ti
 - `TP-FC1.2.0-20261011` | 03 (rewritten), 04, 02, 01, 10, 12, 13, PROJECT_INSTRUCTIONS, README | Combat v2: Momentum and techniques, Grapple-before-Bite, Alarm clock, Battlefield Card, Layers, Morale, companion roles, Marks growth; Hit DCs lowered by 1 (Lakad 9, Sariwa 12, Bulok 7, Hiyaw 11); Pressure DC 8 + n | requested emphasis on combat; v1 simulated at 64% bite-check vs 3 Lakad and 93% vs 5 | risk: Shove Line, Quiet Finish, Second Wind and weapon signatures unsimulated; Sariwa, Hiyaw and the Alarm clock not modelled
 - `TP-FC1.3.0-20261011` | 02, 04, 05, 08, 09, 11, 13, 14, 15 (720 rows), 16 (new), 01, 03, 06, 07, 10, 12, 00, PROJECT_INSTRUCTIONS, README, tools/tape_check.py (new) | Scarcity Pools with Rich/Picked/Scraped tiers and fixed yields; renewable food and water; Compact Stores and barter; Command Attention for TALA check-ins; Hum Pull for S2; Wash Window and Remisol supply fixed; faction codes defined; 720-row tape, /audit and offline checker; tracking tiers and Lite mode; Anchor cadence fixed; 12 Day 0 openers; style-priming and Cebuano language fixes; Alarm threshold raised to Round Noise 4 and extended combat calibration; schema 1.0 → 1.1 (additive) | closes the open defects from the v1.2.0 review | risk: renewables, Hiyaw, humans, Mop-up and several techniques unplayed; Cebuano terms approximate
 - `TP-FC1.4.0-20261011` | 17 (new), skill `chapter-one` (new), 00, 01, 06, 12, 13, 16, PROJECT_INSTRUCTIONS, CLAUDE.md, README | Chapter 1: an intro generated once after character creation that presents the world, the PC and TALA from public lore only and ends on the Day 0 opener; `ch1` flag, `/intro` replay, LEGACY mode; save schema unchanged | the player asked for an opening chapter that sets the scene without telling secrets | risk: run on one custom Origin only; the public-lore allow-list may be too tight or too loose for other Origins; the skill depends on the model following the allow-list
+- `TP-FC1.4.1-20261011` | 17, 16, skill `chapter-one` | Chapter 1 is now one continuous story scene with a hook-first opening, no section headings and no speech written for the PC; `/intro` reprints the saved chapter | the player said the first version read like drafts, not a story | risk: story-first prose leans on the model's craft, so the allow-list check (file 17 §8) is the main guard
 
 ## 8. `/verify` checklist (run at boot and on request)
 

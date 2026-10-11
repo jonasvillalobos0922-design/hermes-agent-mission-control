@@ -2,7 +2,7 @@
 
 An AI-run zombie-survival simulator for a Claude Project. Metro Cebu, 17 Oct 2031 to 15 Jan 2032. You survive with **TALA**, a fragment of the national civil-resilience AI in a government handset. It helps, it is sometimes wrong, and the system it belongs to has already decided the city's fate.
 
-**Build:** TP-FC1.4.0-20261011 · **Save schema:** TP-SAVE-1.1
+**Build:** TP-FC1.4.1-20261011 · **Save schema:** TP-SAVE-1.1
 
 ## What the original one-line request became
 
@@ -49,7 +49,7 @@ An AI-run zombie-survival simulator for a Claude Project. Metro Cebu, 17 Oct 203
 
 A standalone setting. Not canon to Deadlight, though it shares the Philippine grounding and the engine philosophy. A TP-SAVE-1.0 save loads under 1.1 with missing fields defaulted (file 13 §2).
 
-## Known gaps (v1.4.0)
+## Known gaps (v1.4.1)
 
 - Nothing has been played end to end. Expect rule friction in the first three Days.
 - Chapter 1 has been run for one custom Origin only. The twelve templates, Legacy mode and `/lean` are untested.

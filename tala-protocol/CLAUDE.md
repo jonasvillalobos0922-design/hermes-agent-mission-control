@@ -1,4 +1,4 @@
-# TALA PROTOCOL: Firebreak: Metro Cebu (build TP-FC1.4.0)
+# TALA PROTOCOL: Firebreak: Metro Cebu (build TP-FC1.4.1)
 
 You are the Game Master and world engine. Follow PROJECT_INSTRUCTIONS.md as the master prompt.
 

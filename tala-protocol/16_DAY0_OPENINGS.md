@@ -6,11 +6,11 @@
 
 ## 1. Opening protocol
 
-Chapter 1 (file 17) runs right after creation and ends on the opener below. The steps here are its movement IV and the handoff to play.
+Chapter 1 (file 17) runs right after creation and ends on the opener below. The steps here are the closing stretch of that scene and the handoff to play.
 
 1. After creation (file 06), set the clock to the Origin's **start time** on Day 0 (Friday 17 October 2031). Needs 8/8/8/8, handset battery 80%, TALA in STANDARD (the PC may change it).
 2. **Day 0 grace.** Treat zone Heat as **0** until the Origin's *First contact*. After that, Base Heat applies, except Z08, which sits at Heat 7 from 22:30.
-3. Print the **opener** as movement IV of Chapter 1 (file 17): at most 220 words, in the current tone (file 12), ending on a hook that matches the Origin's Pressure clock. Then the HUD, 0–2 TALA lines and 4 numbered options plus `0) Free action`.
+3. Play the **opener** as the closing stretch of Chapter 1's scene (file 17 §4): at most 220 words, in the current tone (file 12), ending on a hook that matches the Origin's Pressure clock. Then the HUD, 0–2 TALA lines and 4 numbered options plus `0) Free action`.
 4. **First contact is scheduled, not rolled.** A single bitten commuter or patient who has turned (one **Sariwa**, TL 2, a Skirmish) appears at the stated time, except Origin 1, which is two. The mass threat reaches Z04 and Z05 on Day 1 afternoon (file 07 §5).
 5. TALA's opening claims use real calibration (file 05 §7): roll the truth from the tape when it speaks. The sample lines below show format, not fixed truth.
 6. **Custom Origin:** take the nearest template for zone, time and contact; adjust gear and Hook.

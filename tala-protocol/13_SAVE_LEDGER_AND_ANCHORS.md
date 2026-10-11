@@ -16,7 +16,7 @@ The **Save Block** is the single source of truth for current values. Lore never 
 
 ```yaml
 TP-SAVE-1.1
-build: TP-FC1.4.0-20261011
+build: TP-FC1.4.1-20261011
 pc: {name, age, origin, callsign, voice_seed: [w1, w2, w3, tic], tone: cinematic, flaw, anchors: [a, b]}
 attrs: {BODY, WITS, NERVE, HANDS, VOICE}
 skills: {Athletics, Melee, Marksmanship, Stealth, Scavenge, Medicine, Mechanics, Signals, Wayfinding, Seacraft, Persuade, Resolve}
@@ -73,7 +73,7 @@ Keep the last **10** entries in the Save Block: `D<day> <WATCH> hh:mm | zone | a
 
 ```
 === TP ANCHOR ===
-build: TP-FC1.4.0-20261011 | schema: TP-SAVE-1.1 | anchored: D<day> <WATCH> hh:mm
+build: TP-FC1.4.1-20261011 | schema: TP-SAVE-1.1 | anchored: D<day> <WATCH> hh:mm
 RECAP (<=120 words, PC voice)
 SAVE BLOCK (full, §2)
 TIER-1 JOURNAL (all entries, compressed one-line each)
