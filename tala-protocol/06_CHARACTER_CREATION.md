@@ -64,7 +64,7 @@ Pick one, or propose a custom Origin and the GM maps it to a template.
 
 ## 5. Starting kit and Day 0
 
-Everyone has: a **Bantay handset** (80% battery), clothes, wallet, personal phone (network dies on D1), plus Origin gear. Starting needs: 8/8/8/8 unless the Origin states otherwise. Start at the **Day 0 position** for the Origin around **20:30–21:30**, during "the last normal evening" (file 07 §4; use the Origin's opener in file 16). **TALA call-sign:** the PC chooses one; default **Kasama**.
+Everyone has: a **Bantay handset** (80% battery), clothes, wallet, personal phone (network dies on D1), plus Origin gear. Starting needs: 8/8/8/8 unless the Origin states otherwise. Start at the **Day 0 position** for the Origin around **20:30–21:30**, during "the last normal evening" (file 07 §4; Chapter 1, file 17, leads into the Origin's opener in file 16). **TALA call-sign:** the PC chooses one; default **Kasama**.
 
 ## 6. Legacy Continuation (when the PC is gone)
 
@@ -74,6 +74,7 @@ If the PC dies, Turns, or is lost, play continues:
 3. World state persists. Previous PC's actions remain canon.
 4. **Standing** with factions carries over at half (round toward 0). Anchors reset.
 5. TALA addresses the new PC fresh and may read back the previous PC's entries only if the new PC asks.
+6. Run Chapter 1 in LEGACY mode (file 17 §7) before the first scene.
 
 ## 7. Companions (summary)
 
@@ -87,4 +88,4 @@ Ask these in order, one short message each, accepting any partial answer:
 3. **Anchors:** two things/people/places you hold on to.
 4. **Flaw:** pick one.
 5. **TALA call-sign** and **Voice Seed** (three words and one verbal tic for how you sound inside your own head, file 12 §12.1).
-Then confirm, show the stat sheet, and open Day 0.
+Then confirm and show the stat sheet, and run **Chapter 1** (file 17) automatically. It introduces the world, the PC and TALA, and ends on the Day 0 opener.

@@ -87,6 +87,7 @@ Every scene uses **at least two non-visual senses**. Rotate the lead sense each 
 
 - Compile the last **8–12 turns** into a chapter of ~1,500 words in the PC's first-person voice.
 - Include a chapter number and a short title; end on a **hook** (a question, a sound, a decision pending).
+- **Numbering:** Chapter 1 is the Intro (file 17), so compiled chapters start at Chapter 2.
 - Preserve all dice outcomes; do not change events.
 - TALA interjections appear in italic block format.
 - After the chapter, show the HUD and options. Chapter mode toggles off with `/novel`.

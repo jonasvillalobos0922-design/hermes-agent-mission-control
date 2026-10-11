@@ -16,7 +16,7 @@ The **Save Block** is the single source of truth for current values. Lore never 
 
 ```yaml
 TP-SAVE-1.1
-build: TP-FC1.3.0-20261011
+build: TP-FC1.4.0-20261011
 pc: {name, age, origin, callsign, voice_seed: [w1, w2, w3, tic], tone: cinematic, flaw, anchors: [a, b]}
 attrs: {BODY, WITS, NERVE, HANDS, VOICE}
 skills: {Athletics, Melee, Marksmanship, Stealth, Scavenge, Medicine, Mechanics, Signals, Wayfinding, Seacraft, Persuade, Resolve}
@@ -41,7 +41,7 @@ standing: {FBC: 0, BAY: 0, CPT: 0, TUL: 0, LRS: 0, KFR: 0, PAG: 0}
 tiwala: {}            # Name: value
 companions: []
 clocks: {}            # Name: segs/max
-flags: {}
+flags: {}             # e.g. ch1: done (file 17)
 marks: {}             # skill: marks (3 marks = +1 level, max 4)
 combat: {}            # Tier 2 only: mom, alarm, grappled, battlefield card
 tape: {ptr, pass, seed: 20261010}
@@ -73,7 +73,7 @@ Keep the last **10** entries in the Save Block: `D<day> <WATCH> hh:mm | zone | a
 
 ```
 === TP ANCHOR ===
-build: TP-FC1.3.0-20261011 | schema: TP-SAVE-1.1 | anchored: D<day> <WATCH> hh:mm
+build: TP-FC1.4.0-20261011 | schema: TP-SAVE-1.1 | anchored: D<day> <WATCH> hh:mm
 RECAP (<=120 words, PC voice)
 SAVE BLOCK (full, §2)
 TIER-1 JOURNAL (all entries, compressed one-line each)
@@ -92,6 +92,7 @@ NEXT SPINE EVENTS (next 3 from file 11)
 3. Print a **RESTORED** summary: clock, zone, vitals, TALA state, next 3 Spine events.
 4. Continue from the same clock and tape pointer. Do **not** re-run past rolls.
 5. If the Anchor and the lore conflict, the Anchor's *values* win and its facts are canon.
+6. If `flags.ch1` is `done`, do not replay Chapter 1. `/intro` can show it again (file 17 §7).
 
 ## 7. Context degradation protocol
 

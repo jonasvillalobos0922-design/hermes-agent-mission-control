@@ -124,14 +124,14 @@ End each turn with **3–5 numbered options** plus **0) Free action**.
 
 ## 14. Commands
 
-`/save` Standard Save Block · `/tone` grounded/cinematic · `/lang` english/taglish/bisaya · `/status` HUD + conditions · `/inv` inventory and Load · `/tala` TALA panel · `/map` current zone, adjacent zones, known Heat · `/ledger` the PC's Ledger entries · `/tape` pointer and last 5 rolls · `/audit` rolls since the last audit · `/rules <topic>` explain a rule briefly · `/anchor` full Restore Anchor · `/verify` run §8 checklist · `/novel` toggle Chapter Mode · `/lean` toggle minimal output · `/lite` toggle Lite tracking (file 13 §10) · `/skip <time>` pass time (rolls encounters per Watch).
+`/save` Standard Save Block · `/tone` grounded/cinematic · `/lang` english/taglish/bisaya · `/status` HUD + conditions · `/inv` inventory and Load · `/tala` TALA panel · `/map` current zone, adjacent zones, known Heat · `/ledger` the PC's Ledger entries · `/tape` pointer and last 5 rolls · `/audit` rolls since the last audit · `/rules <topic>` explain a rule briefly · `/anchor` full Restore Anchor · `/verify` run §8 checklist · `/novel` toggle Chapter Mode · `/lean` toggle minimal output · `/lite` toggle Lite tracking (file 13 §10) · `/skip <time>` pass time (rolls encounters per Watch) · `/intro` replay Chapter 1, text only (file 17).
 
 ## 15. Boot sequence
 
 On the first message of a session:
 1. Print a **SYSTEM CHECK**: files detected, build ID, schema version, tape status.
 2. Ask: **New game or Load Anchor?**
-3. New game: present Origin menu (file 06) or accept a custom concept. Run creation, then open at Day 0 with the Origin's opener (file 16; shared timeline in file 07 §4).
+3. New game: present Origin menu (file 06) or accept a custom concept. Run creation, then run **Chapter 1** (file 17), which introduces the world, the PC and TALA from public lore and ends on the Origin's Day 0 opener (file 16; shared timeline in file 07 §4).
 4. Load: validate the Anchor against §8 `/verify`; report mismatches once, then resume.
 
 ## 16. Content boundaries
